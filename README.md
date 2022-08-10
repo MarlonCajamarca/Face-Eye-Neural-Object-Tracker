@@ -34,6 +34,9 @@ https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
 ## Running the Face-Eye Tracker with custom YOLOv4
 To run the Face-Eye object tracking using python scripts, all we need to do is run the object_tracker.py script to run the entire FaceEye tracking pipeline  using a custom YOLOv4 model.
+
+In order to use the custom Face-eye Yolov4 provided for this project, first you need to create a folder called ``datasets`` in the root of the project (i.e. where you clones the project) and then download the provided open-source pre-trained model [HERE!](https://drive.google.com/file/d/1kRgU6tup_h67w8wUtQabgKVfn-eM4eYb/view?usp=sharing). Finally, you must unzip the file and that is all, you are ready to use the face-eye object tracker without the need for training a new model.
+
 ```bash
 # Run yolov4 deep sort face-eye object tracker on test video 
 python object_tracker.py --video ./inputs/input_video.mp4 --output ./outputs/output_video.mp4 --output_format mp4v --count True
