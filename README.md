@@ -1,4 +1,4 @@
-# Webcam Neural Face-Eye Tracker 
+# Face-Eye Neural Object Tracker 
 
 Custom Face and Eye tracking implemented with a custom FaceEye pre-trained YOLOv4 model, DeepSort, on TensorFlow. YOLOv4 is a state of the art algorithm that uses deep convolutional neural networks to perform object detections. 
 
